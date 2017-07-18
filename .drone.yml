@@ -3,5 +3,6 @@ pipeline:
     image: mongo
     commands:
       - ls
+      - pwd
     environment:
       - DOCKER_API_VERSION=1.20
