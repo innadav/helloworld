@@ -2,5 +2,5 @@ pipeline:
   build:
     image: docker
     commands:
-      - sleep 70
+      - sleep 50
 
