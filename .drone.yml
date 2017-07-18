@@ -1,7 +1,6 @@
 pipeline:
   build:
-    image: mongo
+    image: docker
     commands:
-      - ls
-      - pwd
+      - sleep 10
 
