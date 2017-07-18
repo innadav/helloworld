@@ -3,3 +3,5 @@ pipeline:
     image: mongo
     commands:
       - ls
+    environment:
+      - DOCKER_API_VERSION=1.20
