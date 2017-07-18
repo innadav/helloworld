@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: mongo
+    commands:
+      - ls
