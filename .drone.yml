@@ -1,5 +1,5 @@
 pipeline:
   build:
-    image: docker:1.21
+    image: mongo
     commands:
       - ls
